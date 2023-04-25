@@ -1,0 +1,11 @@
+[package]
+name = "el-tunes-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serenity = { version = "0.11", features = ["client", "gateway", "http", "model", "cache", "framework", "standard_framework", "rustls_backend"] }
+songbird = "0.3"
+tokio = { version = "1", features = ["full"] }
